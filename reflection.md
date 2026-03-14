@@ -14,14 +14,14 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   - When I changed difficulty on the left side, the main page did not change the range according to difficulty, it still had a range between 1 and 100 despite the difficulty. (fixed)
   - The range of difficulties were not in the right order. Normal difficulty had a range between 1 to 100 and a Hard difficulty had a range from 1 to 50. (fixed)
   - Hints were reversed. When I guessed 1 and the secret number was 91, the hint said to go lower, and when i put 99, the hint said go higher. (fixed)
-  - After winning, the new game button refreshes only the secret word, and not the game itself, I couldn't fuess anymore.
+  - After winning, the new game button refreshes only the secret word, and not the game itself, I couldn't guess anymore.
   - The attemps went into negative, instead of not allowing any new guesses once there was no attmepts.
   - The number of attempts starts from 1 instead of 0, so if a player has 8 attempts, he actually has 7 because the count starts from 1. (fixed)
   - score can go to negative.
   - When changing difficulties in the middle of the game, the new game doesn't start, but it continues with the new difficulty.
   - The score calculation is wrong. When player guess the number that is too high, if it's an even number it adds +5 (when the answer is wrong and it is not supposed to add any points). Wrong guesses should always substract the score. (fixed)
   - If the number of attmeps is even, the secret number is converted into string, so if the player guessed the right number in the even attempt, it would either display too low or too high or give an error. (fixed)
-  - When a player enters not a number (a symbol) it says "This is not a number" but it still counts it as attemps. It should not count it as attempt. (fixed)
+  - When a player enters not a number (a symbol) it says "This is not a number" but it still counts it as attempt. It should not count it as attempt. (fixed)
 ---------------------------------------------------------------------------------------
 ------
 

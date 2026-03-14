@@ -26,9 +26,25 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
-The game 
+- In this game you have to guess a secret number, which is randomly generated based on the difficulty. If you have an Easy difficulty, your range is from 1 to 20, Normal difficulty has range from 1 to 50 and Hard difficulty has range from 1 to 100. You can also use hints that can help you see if you guessed higher or lower. 
 - [ ] Detail which bugs you found.
+  - The main page did not change the range according to difficulty.
+  - The range of difficulties were not in the right order.
+  - Hints were reversed.
+  - After winning, the new game button refreshes only the secret word, and not the game itself.
+  - The attemps went into negative.
+  - The number of attempts starts from 1 instead of 0.
+  - When changing difficulties in the middle of the game, the new game doesn't start, but it continues with the new difficulty.
+  - The score calculation is wrong.
+  - If the number of attmeps is even, the secret number is converted into string, so if the player guessed the right number in the even attempt, it would either display too low or too high or give an error.
+  - When a player enters not a number (a symbol) it says "This is not a number" but it still counts it as attempt. 
 - [ ] Explain what fixes you applied.
+  - Changed the displayed range on the right side of the web app.
+  - Changed the range according to each difficulty.
+  - Fixed hints, they are not reversed now.
+  - Fixed score calculations.
+  - fixed a bug when secret number was converted to string.
+  - fixed "Invalid guess" not to count as attempt.
 
 ## 📸 Demo
 
