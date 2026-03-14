@@ -26,12 +26,13 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+The game 
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+-![alt text](../pictures/image.png)
 
 ## 🚀 Stretch Features
 
